@@ -1,0 +1,5 @@
+%{
+  "castore": {:hex, :castore, "0.1.22", "4127549e411bedd012ca3a308dede574f43819fe9394254ca55ab4895abfa1a2", [:mix], [], "hexpm", "c17576df47eb5aa1ee40cc4134316a99f5cad3e215d5c77b8dd3cfef12a22cac"},
+  "elixir_make": {:hex, :elixir_make, "0.7.5", "784cc00f5fa24239067cc04d449437dcc5f59353c44eb08f188b2b146568738a", [:mix], [{:castore, "~> 0.1", [hex: :castore, repo: "hexpm", optional: true]}], "hexpm", "c3d63e8d5c92fa3880d89ecd41de59473fa2e83eeb68148155e25e8b95aa2887"},
+  "nerves": {:hex, :nerves, "1.9.3", "da7f756bffcd5ad5ebc5e4a77197f685bba5f593609a08c4ab7c31d3715f4c9b", [:make, :mix], [{:castore, "~> 0.1", [hex: :castore, repo: "hexpm", optional: false]}, {:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}, {:jason, "~> 1.2", [hex: :jason, repo: "hexpm", optional: true]}], "hexpm", "28a95aa32e64fe0296fde5207555fc35a7b96b71a49458c2822a7319c5deae8b"},
+}
